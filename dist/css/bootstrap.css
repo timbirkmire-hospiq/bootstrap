@@ -301,7 +301,7 @@ a:focus {
 }
 a:focus {
   outline: thin dotted;
-  outline: 5px auto -webkit-focus-ring-color;
+  outline: 1px auto #337ab7;
   outline-offset: -2px;
 }
 figure {
@@ -1730,7 +1730,7 @@ input[type="file"]:focus,
 input[type="radio"]:focus,
 input[type="checkbox"]:focus {
   outline: thin dotted;
-  outline: 5px auto -webkit-focus-ring-color;
+  outline: 1px auto #337ab7;
   outline-offset: -2px;
 }
 output {
@@ -2222,7 +2222,7 @@ select[multiple].input-lg {
 .btn:active.focus,
 .btn.active.focus {
   outline: thin dotted;
-  outline: 5px auto -webkit-focus-ring-color;
+  outline: 1px auto #337ab7;
   outline-offset: -2px;
 }
 .btn:hover,
