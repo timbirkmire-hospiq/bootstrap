@@ -1,3 +1,9 @@
+# Hospital IQ Fork of [Bootstrap](http://getbootstrap.com)
+
+Any modifications should be made to the less source files. When you make changes, be sure to run `grunt dist` to regenerate built files before you commit.
+
+After completing your modifications, copy less files over to the product (`static-src/less`), where they are incorporated into our build pipeline.
+
 # [Bootstrap](http://getbootstrap.com)
 
 [![Slack](https://bootstrap-slack.herokuapp.com/badge.svg)](https://bootstrap-slack.herokuapp.com)
