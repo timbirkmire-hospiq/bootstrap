@@ -79,7 +79,7 @@
 .modal-header {
   padding: @modal-title-padding;
   border-bottom: 1px solid @modal-header-border-color;
-  &:extend(.clearfix all);
+  min-height: 16.42857143px;
 }
 // Close icon
 .modal-header .close {
@@ -147,4 +147,8 @@
 
 @media (min-width: @screen-md-min) {
   .modal-lg { width: @modal-lg; }
+}
+
+.modal-dialog {
+  z-index: 1050
 }
