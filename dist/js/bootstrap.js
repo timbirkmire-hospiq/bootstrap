@@ -1248,6 +1248,14 @@ if (typeof jQuery === 'undefined') {
 
       this.applyPlacement(calculatedOffset, placement)
 
+      // TV PATCH:
+      if (this.options.animation) {
+        $tip.detach().addClass("fade").removeClass("in");
+        this.options.container?$tip.appendTo(this.options.container):$tip.insertAfter(this.$element);
+        $tip[0].clientHeight;
+        $tip.addClass("in");
+      }
+
       var complete = function () {
         var prevHoverState = that.hoverState
         that.$element.trigger('shown.bs.' + that.type)
