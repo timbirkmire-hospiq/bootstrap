@@ -1,8 +1,6 @@
 # Hospital IQ Fork of [Bootstrap](http://getbootstrap.com)
 
-Any modifications should be made to the less source files. When you make changes, be sure to run `grunt dist` to regenerate built files before you commit.
-
-After completing your modifications, copy less files over to the product (`pr/ui/src/less/bootstrap`), where they are incorporated into our build pipeline.
+Any CSS modifications should be made to the less source files. When you make changes, be sure to run `grunt dist` to regenerate built files before you commit.
 
 # [Bootstrap](http://getbootstrap.com)
 
