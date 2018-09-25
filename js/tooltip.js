@@ -487,6 +487,7 @@
     this.hide(function () {
       that.$element.off('.' + that.type).removeData('bs.' + that.type)
       if (that.$tip) {
+        that.$tip.off('bsTransitionEnd'); // PR-7943
         that.$tip.detach()
       }
       that.$tip = null
