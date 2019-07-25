@@ -1,3 +1,7 @@
+# Hospital IQ Fork of [Bootstrap](http://getbootstrap.com)
+
+Any CSS modifications should be made to the less source files. When you make changes, be sure to run `grunt dist` to regenerate built files before you commit.
+
 # [Bootstrap](http://getbootstrap.com)
 
 [![Slack](https://bootstrap-slack.herokuapp.com/badge.svg)](https://bootstrap-slack.herokuapp.com)
@@ -29,7 +33,7 @@ To get started, check out <http://getbootstrap.com>!
 
 Several quick start options are available:
 
-* [Download the latest release](https://github.com/twbs/bootstrap/archive/v3.3.6.zip).
+* [Download the latest release](https://github.com/twbs/bootstrap/archive/v3.3.7.zip).
 * Clone the repo: `git clone https://github.com/twbs/bootstrap.git`.
 * Install with [Bower](http://bower.io): `bower install bootstrap`.
 * Install with [npm](https://www.npmjs.com): `npm install bootstrap@3`.

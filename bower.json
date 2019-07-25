@@ -1,5 +1,5 @@
 {
-  "name": "bootstrap",
+  "name": "hospiq-bootstrap",
   "description": "The most popular front-end framework for developing responsive, mobile first projects on the web.",
   "keywords": [
     "css",
@@ -29,6 +29,6 @@
     "test-infra"
   ],
   "dependencies": {
-    "jquery": "1.9.1 - 2"
+    "jquery": "1.9.1 - 3"
   }
 }
