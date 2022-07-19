@@ -84,7 +84,7 @@
   }
 
   Tooltip.prototype.getOptions = function (options) {
-    options = $.extend({}, this.getDefaults(), this.$element.data(), options)
+    options = $.extend({}, this.getDefaults(), options, this.$element.data())
 
     if (options.delay && typeof options.delay == 'number') {
       options.delay = {
